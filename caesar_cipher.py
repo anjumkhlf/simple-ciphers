@@ -1,3 +1,15 @@
+"""
+
+Encodes and decodes a string using the Caesar cipher. 
+
+encode(text, key):
+    Returns a string encoded with a given key in Caesar cipher.
+
+decode(text, key):
+    Decodes a string encoded with a given key in Caesar cipher.
+
+"""
+
 def encode(text, key):
     text2 = ""
 

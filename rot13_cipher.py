@@ -1,3 +1,12 @@
+"""
+
+Encodes a string using the ROT-13 cipher. Because encoding is the same as decoding in ROT-13, there is only one function.
+
+encode(text):
+    Returns a string encoded with ROT-13
+
+"""
+
 def encode(text):
     text2 = ""
     for letter in text:

@@ -1,3 +1,12 @@
+"""
+
+Encodes a string using the Atbash cipher. Because encoding is the same as decoding in Atbash, there is only one function.
+
+encode(text):
+    Returns a string encoded with Atbash cipher
+
+"""
+
 def encode(text):
     text2 = ""
     for letter in text:
